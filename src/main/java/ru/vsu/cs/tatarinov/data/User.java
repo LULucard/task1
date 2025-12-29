@@ -9,33 +9,47 @@ public class User {
     private String gender;
     private int age;
     private String zodiacSign;
-    private List<String> photos;
+    private String login;
+    private List<Photo> photos;
     private List<Relationship> relationships;
 
-    public User(int id, String name, String gender, int age, String zodiacSign) {
+    public User(int id, String name, String gender, int age, String zodiacSign, String login) {
         this.id = id;
         this.name = name;
         this.gender = gender;
         this.age = age;
         this.zodiacSign = zodiacSign;
+        this.login = login;
         this.photos = new ArrayList<>();
         this.relationships = new ArrayList<>();
     }
 
+    // Getters and setters
     public int getId() { return id; }
     public String getName() { return name; }
     public String getGender() { return gender; }
     public int getAge() { return age; }
     public String getZodiacSign() { return zodiacSign; }
-    public List<String> getPhotos() { return photos; }
+    public String getLogin() { return login; }
+    public List<Photo> getPhotos() { return photos; }
     public List<Relationship> getRelationships() { return relationships; }
 
-    public void addPhoto(String photoPath) {
-        photos.add(photoPath);
+    public void setPhotos(List<Photo> photos) { this.photos = photos; }
+    public void setRelationships(List<Relationship> relationships) { this.relationships = relationships; }
+
+    public void addPhoto(Photo photo) {
+        photos.add(photo);
     }
 
-    public void removePhoto(String photoPath) {
-        photos.remove(photoPath);
+    public void removePhoto(int photoId) {
+        photos.removeIf(p -> p.getId() == photoId);
+    }
+
+    public Photo getPhotoById(int photoId) {
+        return photos.stream()
+                .filter(p -> p.getId() == photoId)
+                .findFirst()
+                .orElse(null);
     }
 
     public void addRelationship(Relationship relationship) {
@@ -48,5 +62,14 @@ public class User {
                 .filter(r -> r.getTargetUserId() == targetUserId)
                 .findFirst()
                 .orElse(null);
+    }
+
+    // Вспомогательный метод для получения путей к файлам (для обратной совместимости)
+    public List<String> getPhotoFileNames() {
+        List<String> fileNames = new ArrayList<>();
+        for (Photo photo : photos) {
+            fileNames.add(photo.getFileName());
+        }
+        return fileNames;
     }
 }
