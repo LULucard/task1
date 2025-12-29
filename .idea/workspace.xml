@@ -9,23 +9,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f973b04-3e55-4938-b5a0-83e5c1258c25" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/cs/tatarinov/SimpleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/cs/tatarinov/TestDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/cs/tatarinov/data/DatabaseConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/cs/tatarinov/data/DatabaseConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/cs/tatarinov/data/DatabaseInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/database.propeties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/cs/tatarinov/data/PhotoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/cs/tatarinov/data/ReactionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/cs/tatarinov/data/RelationshipRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/cs/tatarinov/data/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/cs/tatarinov/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/cs/tatarinov/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/cs/tatarinov/business/SocialNetworkService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/cs/tatarinov/business/SocialNetworkService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/cs/tatarinov/data/DataRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/cs/tatarinov/data/DataRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/cs/tatarinov/data/Photo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/cs/tatarinov/data/Photo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/cs/tatarinov/data/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/cs/tatarinov/data/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/cs/tatarinov/presentation/ConsoleUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/cs/tatarinov/presentation/ConsoleUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/cs/tatarinov/data/DataRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/cs/tatarinov/data/DatabaseConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/cs/tatarinov/data/DatabaseConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/cs/tatarinov/data/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/cs/tatarinov/data/DatabaseConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/cs/tatarinov/data/DatabaseInitializer.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,9 +59,22 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="att1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -84,25 +91,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Gradle.task1 [:Main.main()].executor": "Run",
-    "Gradle.task1 [:SimpleTest.main()].executor": "Run",
-    "Gradle.task1 [:TestDatabase.main()].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "att1",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/LULuc/OneDrive/Desktop/5 Семестр Учеба/ЯП Java/task1",
-    "onboarding.tips.debug.path": "C:/Users/LULuc/OneDrive/Desktop/5 Семестр Учеба/ЯП Java/task1/src/main/java/ru/vsu/cs/tatarinov/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "File.Encoding"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Gradle.task1 [:Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.task1 [:SimpleTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.task1 [:TestDatabase.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;att2&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/LULuc/OneDrive/Desktop/5 Семестр Учеба/ЯП Java/task1&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/LULuc/OneDrive/Desktop/5 Семестр Учеба/ЯП Java/task1/src/main/java/ru/vsu/cs/tatarinov/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.SimpleTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.vsu.cs.tatarinov.Main" />
@@ -184,13 +191,22 @@
       <option name="project" value="LOCAL" />
       <updated>1760466590416</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2 Атта, без переменных окружения, к концу дат аттестаций разберусь, с хард кодингом root бд подключается">
+      <option name="closed" value="true" />
+      <created>1763327361383</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1763327361383</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Создал проект" />
     <MESSAGE value="1 Атта с ошибками" />
-    <option name="LAST_COMMIT_MESSAGE" value="1 Атта с ошибками" />
+    <MESSAGE value="2 Атта, без переменных окружения, к концу дат аттестаций разберусь, с хард кодингом root бд подключается" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 Атта, без переменных окружения, к концу дат аттестаций разберусь, с хард кодингом root бд подключается" />
   </component>
 </project>
