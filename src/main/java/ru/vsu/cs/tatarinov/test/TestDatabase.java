@@ -1,4 +1,4 @@
-package ru.vsu.cs.tatarinov;
+package ru.vsu.cs.tatarinov.test;
 
 import ru.vsu.cs.tatarinov.data.*;
 
